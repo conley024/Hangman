@@ -1,0 +1,127 @@
+const wordList = [
+//{
+   // word: "factor",
+   // hint: "Rewrite as multiplication"
+//},
+//{word: "expression", hint: "Math phrase without equals sign"},
+//{word: "equivalent", hint: "Different forms, same value"},
+//{word: "term", hint: "Single part of an expression"},
+//{word: "liketerms", hint: "Same variables and powers"},
+//{word: "rational", hint: "Can be written as a fraction"},
+//{word: "coefficient", hint: "Number in front of variable"},
+//{word: "product", hint: "Answer to multiplication"},
+//{word: "equation", hint: "Math sentence with equals sign"},
+//{word: "inequality", hint: "Comparison using < or >"},
+//{word: "unknown", hint: "Value you are solving for"},
+{word: "variable", hint: "Letter representing a number"  },
+
+//{word: "determine", hint: "Figure out the answer"},
+//{word: "explain", hint: "Tell how or why"},
+//{word: "modify", hint: "Change something"},
+//{word: "sketch", hint: "Quick drawing or graph"},
+//{word: "balance", hint: "Keep both sides equal"},
+//{word: "reason", hint: "Think logically"},
+//{word: "reasoning", hint: "Explain your thinking"},
+//{word: "represent", hint: "Show using math symbols"},
+//{word: "consider", hint: "Think carefully"},
+//{word: "interpret", hint: "Explain the meaning"},
+
+{word: "commission", hint: "Money earned from sales"},
+{word: "gratuity", hint: "Tip for service"},
+{word: "markdown", hint: "Decrease in price"},
+{word: "markup", hint: "Increase in price"},
+{word: "simpleinterest", hint: "Interest on original amount"},
+{word: "tax", hint: "Extra cost added"},
+{word: "percent", hint: "Out of 100"},
+{word: "proportional", hint: "Constant ratio"},
+{word: "rate", hint: "Comparison of units"},
+{word: "discount", hint: "Amount taken off price"},
+{word: "percentchange", hint: "Percent increase or decrease"},
+{word: "percentdecrease", hint: "Percent going down"},
+{word: "percenterror", hint: "Difference as percent"},
+{word: "percentincrease", hint: "Percent going up"},
+{word: "original", hint: "Starting value"},
+{word: "population", hint: "Entire group"},
+{word: "randomsample", hint: "Chosen by chance"},
+{word: "sample", hint: "Part of a group"},
+{word: "data", hint: "Information collected"},
+{word: "representative", hint: "Reflects the population"},
+{word: "survey", hint: "Questions for data"},
+{word: "boxplot", hint: "Graph of data spread"},
+{word: "estimate", hint: "Approximate value"},
+{word: "mean", hint: "Average"},
+{word: "median", hint: "Middle value"},
+{word: "infer", hint: "Make a conclusion"},
+{word: "inference", hint: "Conclusion from data"},
+{word: "interquartilerange", hint: "Middle spread of data"},
+{word: "center", hint: "Typical value"},
+{word: "range", hint: "Highest minus lowest"},
+{word: "variability", hint: "How spread out"},
+{word: "consistent", hint: "Stays similar"},
+{word: "overlap", hint: "Shared values"},
+
+{word: "decompose", hint: "Break into parts"},
+{word: "dimension", hint: "Measurement"},
+{word: "face", hint: "Flat surface"},
+{word: "rectangularprism", hint: "Box-shaped solid"},
+{word: "triangularprism", hint: "Triangle-based prism"},
+{word: "surfacearea", hint: "Total area of faces"},
+{word: "claim", hint: "Statement believed true"},
+{word: "composite", hint: "Made of smaller shapes"},
+{word: "base", hint: "Bottom face"},
+{word: "rightprism", hint: "Straight-sided prism"},
+{word: "volume", hint: "Space inside"},
+{word: "strategy", hint: "Plan to solve"},
+{word: "cylinder", hint: "Circular prism shape"},
+{word: "planesection", hint: "Slice of a solid"},
+{word: "parallel", hint: "Lines never meet"},
+{word: "perpendicular", hint: "90 degree angle"},
+{word: "prism", hint: "Solid with matching bases"},
+{word: "pyramid", hint: "Pointed solid"},
+{word: "rectangularprism", hint: "Rectangle-based prism"},
+{word: "counterexample", hint: "Proves statement wrong"},
+{word: "diagonal", hint: "Line across shape"},
+{word: "result", hint: "Final answer"},
+{word: "adjacent", hint: "Next to each other"},
+{word: "complementary", hint: "Sum to 90"},
+{word: "straight", hint: "180 degrees"},
+{word: "supplementary", hint: "Sum to 180"},
+{word: "vertical", hint: "Opposite equal angles"},
+{word: "acute", hint: "Less than 90"},
+{word: "angle", hint: "Two rays meet"},
+{word: "obtuse", hint: "Between 90 and 180"},
+{word: "vertex", hint: "Point where lines meet"},
+{word: "extend", hint: "Make longer"},
+{word: "parallelogram", hint: "Opposite sides parallel"},
+{word: "quadrilateral", hint: "4-sided shape"},
+{word: "rectangle", hint: "4 right angles"},
+{word: "rhombus", hint: "All sides equal"},
+{word: "triangle", hint: "3-sided shape"},
+{word: "condition", hint: "Rule to follow"},
+{word: "unique", hint: "Only one solution"},
+
+//{word: "event", hint: "Possible result"},
+//{word: "experiment", hint: "Produces outcomes"},//
+//{word: "outcome", hint: "Result"},//
+//{word: "probability", hint: "Chance of happening"},//
+//{word: "fraction", hint: "Part of whole"},//
+//{word: "integers", hint: "Whole numbers and negatives"},//
+//{word: "multiple", hint: "Result of multiplication"},//
+//{word: "primenumber", hint: "Only 1 and itself"},//
+//{word: "random", hint: "No pattern"},//
+//{word: "likelihood", hint: "Chance level"},//
+//{word: "occur", hint: "To happen"},//
+//{word: "experimental", hint: "Based on results"},//
+//{word: "trial", hint: "One experiment test"},//
+//{word: "conduct", hint: "Carry out"},//
+//{word: "predict", hint: "Make a guess"},//
+//{word: "prediction", hint: "Expected result"},//
+//{word: "samplespace", hint: "All outcomes"},//
+//{word: "theoretical", hint: "Based on math"},//
+//{word: "favorable", hint: "Wanted outcome"},//
+//{word: "nonfavorable", hint: "Not wanted outcome"},//
+//{word: "compoundevent", hint: "Multiple events together"},//
+//{word: "treediagram", hint: "Shows all outcomes"},//
+////{word: "simulate", hint: "Model a situation"},//
+//{word: "simulation", hint: "Imitation model"},  //
+]
